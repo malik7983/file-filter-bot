@@ -108,7 +108,10 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Join Movie channel 🙏', url='https://t.me/FILMY_PITARA')
+        InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/FILMY_PITARA'),
+        InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')
+
+
     ])
     try:
         await query.edit_message_reply_markup(
@@ -422,7 +425,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Make_Your_Own_Bot_here')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
@@ -471,7 +474,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Make_Your_Own_Bot_here'),
+            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Epic_creation_bots'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
@@ -490,7 +493,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "GHHM":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Make_Your_Own_Bot_here'),
+            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Epic_creation_bots'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='extra'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮', callback_data='mbbumm')
         ], [
@@ -858,8 +861,9 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
-    ])
+                 InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/FILMY_PITARA'),
+
+                  InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')    ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
