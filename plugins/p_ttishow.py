@@ -39,7 +39,7 @@ async def save_group(bot, message):
         buttons = [[
             InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('💎 Updates 💎', url='https://t.me/FILMY_PITARA')
-        ],[InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Make_Your_Own_Bot_here')]]
+        ],[InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Epic_creation_bots')]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=(PHT),
@@ -63,7 +63,9 @@ async def save_group(bot, message):
                                                                            InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
                                                                            ],[
                                                                            InlineKeyboardButton('♻️ GROUP RULES ♻️', callback_data='group_rules')
-                                                                         ]]
+                                                                         ],[
+                                                                           InlineKeyboardButton('♻️ MOVIE CHANNEL ♻️',url='https://t.me/FILMY_PITARA')
+                                                                          ]]
                                                  ),
                                                  parse_mode='html'
 )
