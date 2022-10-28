@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCFDpDpnOgcoztiiIkjnJYfw')
+        InlineKeyboardButton('🙏 Join Movie channel 🙏', url='https://t.me/FILMY_PITARA')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -143,7 +143,9 @@ async def advantage_spoll_choker(bot, query):
                reply_markup=InlineKeyboardMarkup(
                                       [[
                                         InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/Rajneesh_Singh_Tomar"),
-                                                                         
+        
+                                       ],[
+                                        InlineKeyboardButton('💢 Join Movie Channel 💢', url="https://t.me/FILMY_PITARA"),                                
                                       ]]
                ),
                parse_mode='html'
