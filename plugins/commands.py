@@ -52,7 +52,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Make_Your_Own_Bot_here')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
@@ -103,7 +103,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Make_Your_Own_Bot_here')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
