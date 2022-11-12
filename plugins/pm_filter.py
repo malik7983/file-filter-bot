@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/+EYLjie-tVIQ2ZWI1'),
+        InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/+Dek49ihM4u5iNWQ1'),
         InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')
 
 
@@ -148,7 +148,7 @@ async def advantage_spoll_choker(bot, query):
                                         InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/Rajneesh_Singh_Tomar"),
         
                                        ],[
-                                        InlineKeyboardButton('💢 Join Movie Channel 💢', url="https://t.me/+EYLjie-tVIQ2ZWI1"),                                
+                                        InlineKeyboardButton('💢 Join Movie Channel 💢', url="https://t.me/+Dek49ihM4u5iNWQ1"),                                
                                       ]]
                ),
                parse_mode='html'
@@ -423,7 +423,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+EYLjie-tVIQ2ZWI1'),
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+Dek49ihM4u5iNWQ1'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
             InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
             ],[
@@ -861,7 +861,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-                 InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/+EYLjie-tVIQ2ZWI1'),
+                 InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/+Dek49ihM4u5iNWQ1'),
 
                   InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')    ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
