@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],
             [
-                InlineKeyboardButton('♻️ Updates Channel ♻️', url='https://t.me/+EYLjie-tVIQ2ZWI1')
+                InlineKeyboardButton('♻️ Updates Channel ♻️', url='https://t.me/+Dek49ihM4u5iNWQ1')
             ],
             [
                 InlineKeyboardButton('❇️ Help ❇️', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,7 +50,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+EYLjie-tVIQ2ZWI1'),
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+Dek49ihM4u5iNWQ1'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
             InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
             ],[
@@ -101,7 +101,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+EYLjie-tVIQ2ZWI1'),
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+Dek49ihM4u5iNWQ1'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
             InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
             ],[
@@ -267,7 +267,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('♻️ Join Channel ', url="https://t.me/+EYLjie-tVIQ2ZWI1")
+                    InlineKeyboardButton('♻️ Join Channel ', url="https://t.me/+Dek49ihM4u5iNWQ1")
                 ]
             ]
         )
