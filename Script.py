@@ -248,8 +248,8 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/Rajneesh_Singh_Tomar>Rajneesh_Singh_Tomar</a></b>"""
 
-    FORCESUB_TXT = """<b>
- 🔐 Join Our Update Channel To Use The Bot 🔐 </b>"""
+    FORCESUB_TXT = """
+ 🔐 Join Our Update Channel To Use The Bot 🔐 """
     
     OWNER_TXT = """<b>>━━━━᚜ Owner Details ᚛━━━━<
     
