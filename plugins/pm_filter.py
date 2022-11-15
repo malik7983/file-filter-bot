@@ -1,4 +1,4 @@
-# Kanged From @sahid malik
+# Kanged From @Rajneesh058
 import asyncio
 import re
 import ast
@@ -108,8 +108,8 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/+Dek49ihM4u5iNWQ1'),
-        InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')
+        InlineKeyboardButton('🎭ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ🎭', url='https://t.me/+Dek49ihM4u5iNWQ1'),
+        InlineKeyboardButton('🆘ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ🆘', url='https://t.me/F_pitara')
 
 
     ])
@@ -145,10 +145,9 @@ async def advantage_spoll_choker(bot, query):
                text=(M_NT_FND),
                reply_markup=InlineKeyboardMarkup(
                                       [[
-                                        InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/Rajneesh_Singh_Tomar"),
-        
+                                        InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/Rajneesh_Singh_Tomar")
                                        ],[
-                                        InlineKeyboardButton('💢 Join Movie Channel 💢', url="https://t.me/+Dek49ihM4u5iNWQ1"),                                
+                                        InlineKeyboardButton('💢 Join Movie Channel 💢', url="https://t.me/+Dek49ihM4u5iNWQ1")                              
                                       ]]
                ),
                parse_mode='html'
@@ -390,8 +389,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒...\n\n 😳 bro niche diye gye updates channel ko join karo  jab tak aap updates channel join nahi karte tab tak bot apko movie nahi dega! ", show_alert=True)
-            return
+            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒...\n\n 😳 bro niche diye gye updates channel ko join karo  jab tak aap updates channel join nahi karte tab tak bot apko movie nahi dega! ", show_alert=
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
