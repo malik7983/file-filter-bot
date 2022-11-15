@@ -389,7 +389,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒...\n\n 😳 bro niche diye gye updates channel ko join karo  jab tak aap updates channel join nahi karte tab tak bot apko movie nahi dega! ", show_alert=
+            await query.answer("ʏᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ. ᴊᴏɪɴ ᴛᴏ ᴜꜱᴇ🔐", show_alert=True)
+           return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
@@ -419,24 +420,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+Dek49ihM4u5iNWQ1'),
-            InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+Dek49ihM4u5iNWQ1'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Epic_creation_bots')
             ],[
-            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ About ♻️', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette')
-            ],[
-            InlineKeyboardButton('🚀 Download YouTube video 🛰', callback_data='videos')
-            ],[
-            InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
-            ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCFDpDpnOgcoztiiIkjnJYfw')
-        ]]
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ɪɴʟɪɴᴇ', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ᴜʀʟ ꜱʜᴏʀᴛɴᴇʀ', callback_data='urlshortn')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -451,10 +445,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀', callback_data='coct')
         ], [
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='GHHM'),
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 ', callback_data='start'),
-            InlineKeyboardButton(' SONGS ', callback_data='songs')
+            InlineKeyboardButton('𝗛𝗼𝗺𝗲 ', callback_data='start'),
+            InlineKeyboardButton('SONGS', callback_data='songs')
         ], [
-            InlineKeyboardButton('♻️ 𝗦𝘁𝗮𝘁𝘀 ♻️', callback_data='stats'),
+            InlineKeyboardButton('𝗦𝘁𝗮𝘁𝘀', callback_data='stats'),
             InlineKeyboardButton('𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
             InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Rajneesh_Singh_Tomar')
         ], [
@@ -472,14 +466,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Epic_creation_bots'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Epic_creation_bots'),
+            InlineKeyboardButton('Source', callback_data='source')
         ], [
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
+            InlineKeyboardButton('𝗛𝗼𝗺𝗲', callback_data='start'),
+            InlineKeyboardButton('𝗖𝗹𝗼𝘀𝗲', callback_data='close_data')
         ], [
-            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Rajneesh_Singh_Tomar'),
-            InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik')
+            InlineKeyboardButton('𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Rajneesh_Singh_Tomar'),
+            InlineKeyboardButton('Donation', callback_data='malik')
         ], [
             InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
         ]]
@@ -491,12 +485,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "GHHM":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/Epic_creation_bots'),
+            InlineKeyboardButton('Bots Channel', url='https://t.me/Epic_creation_bots'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='extra'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮', callback_data='mbbumm')
         ], [
             InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start'),
-            InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
+            InlineKeyboardButton('𝗖𝗹𝗼𝘀e', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -584,7 +578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "mbbumm":
         buttons = [[
-            InlineKeyboardButton('✳️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -710,7 +704,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help'),
-            InlineKeyboardButton('♻️ Refresh ♻️', callback_data='rfrsh')
+            InlineKeyboardButton('Refresh', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -729,7 +723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help'),
-            InlineKeyboardButton('♻️ Refresh ♻️', callback_data='rfrsh')
+            InlineKeyboardButton('Refresh', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -859,9 +853,9 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-                 InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/+Dek49ihM4u5iNWQ1'),
+                 InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+Dek49ihM4u5iNWQ1'),
 
-                  InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')    ])
+                  InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url='https://t.me/F_pitara')    ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
