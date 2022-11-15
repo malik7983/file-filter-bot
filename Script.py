@@ -1,24 +1,22 @@
 class script(object):
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}</b>
-✯ <b>𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Rajneesh_Singh_Tomar>Rajneesh_Singh_Tomar</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-✯ updates channel: <a href=https://t.me/FILMY_PITARA>CLICK HERE</a>
-✯ Subscribe you tube channel: <a href=<a href=https://youtube.com/channel/UCFDpDpnOgcoztiiIkjnJYfw>CLICK HERE</a></b>""" 
+    HELP_TXT = """👋 {}
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳."""
+    ABOUT_TXT = """<b>⭐ 𝙼𝚈 𝙽𝙰𝙼𝙴 ⭐: {}</b>
+⭐ <b>𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Rajneesh_Singh_Tomar>Rajneesh_Singh_Tomar</a>
+⭐ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+⭐ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+⭐ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
+⭐ updates channel: <a href=https://t.me/FILMY_PITARA>CLICK HERE</a>
+⭐ Subscribe you tube channel: <a href=<a href=https://youtube.com/channel/UCFDpDpnOgcoztiiIkjnJYfw>CLICK HERE</a></b>""" 
     SOURCE_TXT = """<b>NOTE:</b>
-- <b>Movies house is a open source project. 
+- <b>FP BOT is a open source project. 
 - Source 👉 <a href=https://t.me/Rajneesh_Singh_Tomar>CLICK HERE</a></b>
 
 <b>DEVS:</b>
 - <a href=https://t.me/Rajneesh_Singh_Tomar>Rajneesh_Singh_Tomar</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and FP Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. FILMY PITARA have admin privillage.
@@ -32,11 +30,11 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- movies house Supports both url and alert inline buttons.
+- FP Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. movies house supports buttons with any telegram media type.
+2. FP Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
@@ -102,33 +100,32 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+    LOG_TEXT_P = """#NᴇᴡUsᴇʀJᴏɪɴᴇᴅ
+ID - <code>{}</code>  
+Mʏ Nᴇᴡ Fʀɪᴇɴᴅ - https://t.me/{}   Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏᴛ !!
 """
 
-    START_TXT = """<b>Hay {},
+    START_TXT = """
+<i>👋 Hᴇʏ,</i>{}\n
+<i>I'ᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Sᴛʀᴇᴀᴍɪɴɢ Bᴏᴛ ᴀs ᴡᴇʟʟ Dɪʀᴇᴄᴛ Lɪɴᴋs Gᴇɴᴇʀᴀᴛᴇ</i>\n
+<i>Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
+<i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>
+<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n\n
+<i><b>🍃 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>@Epic_creation_bots</i>"""
 
-I'm ⚡️ Powerful Auto-Filter Bot...
-😎 You Can Use Me As A Auto-filter in Your Group ....
-Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
-⚠️ More Help Check Help Button Below
-
-©️Mantained Bʏ  @Rajneesh_Singh_Tomar</b>"""
-
-    GHHM_TXT = """<b>7k User 💖 Thanks For Your Support...
+    GHHM_TXT = """<b>💖 Thanks For Your Support...
 
 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾... 😎
 
 
      ♋️ 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 ♋️
 
-✪ AutoFilter, Manual Filter
-✪ IMDb HD Posters
-✪ IMDb Real Details
-✪ Two Buttons Mode
-✪ Force Subscribe
-✪ Extra Features: download songs, download you tube video, URL Shortner,  
+🌟 AutoFilter, Manual Filter
+🌟 IMDb HD Posters
+🌟 IMDb Real Details
+🌟 Two Buttons Mode
+🌟 Force Subscribe
+🌟 Extra Features: download songs, download you tube video, URL Shortner,  
 
 ⚙ More Features Adding Soon</b> 😎"""
 
