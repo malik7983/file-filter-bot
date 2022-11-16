@@ -34,7 +34,7 @@ async def answer(bot, query):
         await query.answer(results=[],
                            cache_time=0,
                            switch_pm_text='ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ',
-                           switch_pm_parameter="ꜱᴜʙꜱᴄʀɪʙᴇ")
+                           switch_pm_parameter="subscribe")
         return
 
     results = []
