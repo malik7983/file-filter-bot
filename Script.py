@@ -107,8 +107,9 @@ Mʏ Nᴇᴡ Fʀɪᴇɴᴅ - https://t.me/{}   Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏ�
 
     START_TXT = """
 <i>👋 Hᴇʏ,</i>{}\n
-<i>I'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴏᴠɪᴇ ꜰɪɴᴅᴇʀ & ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ</i>\n
-<i>Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>n\
+<i>I'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴏᴠɪᴇ🎭 ꜰɪɴᴅᴇʀ & ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ🤖</i>\n
+<i>Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ🆘 ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>n\
+
 <i><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Rajneesh_Singh_Tomar</b>"""
 
     GHHM_TXT = """<b>💖 Thanks For Your Support...
@@ -242,8 +243,6 @@ Mʏ Nᴇᴡ Fʀɪᴇɴᴅ - https://t.me/{}   Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏ�
 MALIK_PHH = """<b>Hay 👋 {}.... 🌷 ❤️
 
 😎 welcome to Our Group...
-  
-      👉 <s>{}</s> 👈 
 
 😎 You Can Find 🔍 Movies / Series / Animes etc.</b>"""
 
