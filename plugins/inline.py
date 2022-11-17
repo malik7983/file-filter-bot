@@ -103,11 +103,11 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ', switch_inline_query_current_chat=query),
-            ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+Dek49ihM4u5iNWQ1')
-        ]
-        ]
+            InlineKeyboardButton('ᴜᴘʟᴏᴀᴅᴇᴅ ꜰʀᴏᴍ', url='https://t.me/+Dek49ihM4u5iNWQ1'),
+            InlineKeyboardButton('ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ', url='https://t.me/Epic_creation_bots')
+        ],[
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ🔄', switch_inline_query_current_chat=query)
+        ]]
     return InlineKeyboardMarkup(buttons)
 
 
