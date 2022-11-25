@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://telegra.ph/file/00bdb8145479df9436ae1.jpg" alt="Ajax Techz">
+  <img src="https://user-images.githubusercontent.com/105805201/192936277-dcc0fa25-a8d1-41c8-8039-00d383ea56c7.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
-  <b>file-filter-bot</b>
+  <b>Movie-Finder-bot</b>
 </h1>
-<a href="https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A">
-  <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-red?logo=youtube" width="150">
+<a href="https://youtube.com/channel/UCFDpDpnOgcoztiiIkjnJYfw">
+  <img src="https://user-images.githubusercontent.com/105805201/193200984-945641aa-05c9-41ce-b6a2-13a876a8832b.svg" width="150">
 
-[![Stars](https://img.shields.io/github/stars/malik7983/file-filter-bot?style=flat-square&color=orange)](https://github.com/malik7983/file-filter-bot/stargazers)
-[![Forks](https://img.shields.io/github/forks/malik7983/file-filter-bot?style=flat-square&color=blue)](https://github.com/malik7983/file-filter-bot/fork)
-[![Size](https://img.shields.io/github/repo-size/malik7983/file-filter-bot?style=flat-square&color=black)](https://github.com/malik7983/file-filter-bot)   
-[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=110)](https://github.com/malik7983/file-filter-bot)   
+[![Stars](https://user-images.githubusercontent.com/105805201/193201047-3d9aa592-1c4e-4b17-8e0d-e3cfcc66176c.svg)](https://github.com/Moviesindna/moviefinderbot/stargazers)
+[![Forks](https://user-images.githubusercontent.com/105805201/193201090-73f7ff5d-be1d-4668-8a31-6f544aab9dba.svg)](https://github.com/Moviesindna/moviefinderbot/network/members)
+[![Size](https://user-images.githubusercontent.com/105805201/193201170-b389f999-c07e-4d0f-8aee-5701a6263fbc.svg)](https://github.com/Moviesindna/moviefinderbot)   
+[![Open Source happy ](https://user-images.githubusercontent.com/105805201/193201236-21414dcf-8978-4fb3-b53c-c6c2dc846a53.svg)](https://github.com/Moviesindna/moviefinderbot)   
 ## Features
 
 - [x] Auto Filter
@@ -51,8 +51,8 @@ You can deploy this bot anywhere.
 <p>
 <br>
 
-<a href="https://heroku.com/deploy?template=https://github.com/malik7983/file-filter-bot">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+<a href="https://telegram.dog/XTZ_HerokuBot?start=TW92aWVzaW5kbmEvZmlsZS1maWx0ZXItYm90djUgbWFzdGVy">
+  <img src="https://user-images.githubusercontent.com/105805201/193201299-52085501-806c-4abc-8ba2-7e4d30106f7d.svg" alt="Deploy">
 </a>
 </p>
 </details>
@@ -60,7 +60,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax
+git clone https://github.com/Moviesindna/moviefinderbot
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -97,5 +97,5 @@ python3 bot.py
 • /broadcast - to broadcast a message to Ajax users
 ```
 
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Sahid malik](https://t.me/sahid_malik)                                                                                                                                                                                 
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [movies house](https://t.me/m_house786)
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Rajneesh Singh Tomar ](https://t.me/Rajneesh_Singh_Tomar)                                                                                                                                                                                 
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [Filmy Pitara](https://t.me/FILMY_PITARA)

@@ -1,5 +1,5 @@
 {
-    "name": "file-filter-bot",
+    "name": "Movie-Finder-bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/malik7983/file-filter-bot",
-    "repository": "https://github.com/malik7983/file-filter-bot",
+    "repository": "https://github.com/Rajneesh058/movie-finder-bot058",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -45,6 +45,11 @@
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true
+        },
+         "CUSTOM_FILE_CAPTION": {
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "value": "{file_name}\n\n🔘 size - {file_size}\n\n╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗\n💥 𝙅𝙊𝙄𝙉 :- @FILMY_PITARA💥 ╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝ ",
+            "required": false
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",

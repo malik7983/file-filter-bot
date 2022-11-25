@@ -5,10 +5,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQue
 from pyrogram.handlers import MessageHandler
 from pyshorteners import Shortener
 
-BITLY_API = os.environ.get("BITLY_API", "8df1df8c23f719e5cf97788cc2d40321ea30092b")
-CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c")
-SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...NIZv")
-GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9007a7")
+BITLY_API = os.environ.get("BITLY_API", "c2a7533a06d1ac72798573b6caaadd6e4a60479b")
+CUTTLY_API = os.environ.get("CUTTLY_API", "0375be7b004ea0a5fc5bb9929af52c07d0684")
+SHORTCM_API = os.environ.get("SHORTCM_API", "pk_FOxOszNFLTl4rO9y")
+GPLINKS_API = os.environ.get("GPLINKS_API", "01258a4a45c74a3d1eee203838d4b7e9903a32a4")
 
 reply_markup = InlineKeyboardMarkup(
         [[
